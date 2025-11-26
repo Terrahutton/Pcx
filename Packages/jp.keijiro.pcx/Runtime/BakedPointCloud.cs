@@ -44,7 +44,7 @@ namespace Pcx
             _positionMap.name = "Position Map";
             _positionMap.filterMode = FilterMode.Point;
 
-            _colorMap = new Texture2D(width, width, TextureFormat.RGBA32, false);
+            _colorMap = new Texture2D(width, width, TextureFormat.RGBA32, false, true);
             _colorMap.name = "Color Map";
             _colorMap.filterMode = FilterMode.Point;
 
